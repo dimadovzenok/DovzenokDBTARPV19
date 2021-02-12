@@ -225,7 +225,7 @@ namespace DovzenokTAR
             }
             SmtpClient client = new SmtpClient("smtp.gmail.com");
             client.Port = 587;
-            client.Credentials = new System.Net.NetworkCredential("dima.dovzenok2003@gmail.com", "maardumaardu1717");
+            client.Credentials = new System.Net.NetworkCredential("dima.dovzenok2003@gmail.com", "");
             client.EnableSsl = true;
             client.Send(mail);
             MessageBox.Show("Сообщение отправлено!", "Успешно", MessageBoxButtons.OK);
